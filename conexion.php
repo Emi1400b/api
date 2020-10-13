@@ -8,10 +8,10 @@
 
         //Metódo contructor = construir
         public function __construct () {
-            $this-> Host = "localhost";
-            $this-> User = "root";
-            $this-> Password = "";
-            $this-> DataBase = "sakila";
+            $this-> Host = "us-cdbr-east-02.cleardb.com";
+            $this-> User = "bf11ce3b5f3ba1";
+            $this-> Password = "3c54d0e4";
+            $this-> DataBase = "heroku_4abfbfa22768ec4";
         }
 
         public function OpenConnection(){
