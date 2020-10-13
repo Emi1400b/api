@@ -1,0 +1,8 @@
+Options +FollowSymLinks -MultiViews
+
+#permite sobreescrinir las url
+#son url amigables porque no se saturan
+RewriteEngine On
+
+#Define una regla
+RewriteRule ^([0-9a-zA-Z_-]*)$ actorServe.php?param=$1
